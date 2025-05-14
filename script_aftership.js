@@ -1,3 +1,4 @@
+
 const form = document.getElementById("tracking-form");
 const resultBox = document.getElementById("results");
 
@@ -8,7 +9,7 @@ form.addEventListener("submit", async function(e) {
   const response = await fetch(`https://api.aftership.com/v4/trackings/auto/${tracking}`, {
     method: "GET",
     headers: {
-      "aftership-api-key": "TU_API_KEY_AQUÍ",
+      "aftership-api-key": "asat_995061e924374401ba8861ecfa790339",
       "Content-Type": "application/json"
     }
   });
