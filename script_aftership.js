@@ -9,7 +9,7 @@ form.addEventListener("submit", async function(e) {
   const response = await fetch(`https://api.aftership.com/v4/trackings/auto/${tracking}`, {
     method: "GET",
     headers: {
-      "aftership-api-key": "asat_995061e924374401ba8861ecfa790339",
+      "aftership-api-key": "asat_f6cb0a5a408d426a90a325756ddb3723",
       "Content-Type": "application/json"
     }
   });
