@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrackItNow</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Rastrea tu paquete</h1>
+  <form id="tracking-form">
+    <input type="text" id="tracking-number" placeholder="Número de rastreo" required />
+    <button type="submit">Rastrear</button>
+  </form>
+  <div id="results" style="display: none;">
+    <p>Número: <span id="tracking-id"></span></p>
+    <p>Estado: <span id="tracking-status"></span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
